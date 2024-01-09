@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box, Button, styled, Typography } from "@mui/material";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import BouncingGuy from './BouncingGuy';
 //img
 import datutandaGuy from '../assets/datutanda_guy.png'
 
@@ -12,7 +13,7 @@ const Header = () => {
         justifyContent: 'center',
         // tamanhos
         gap: theme.spacing(2),
-        paddingTop: theme.spacing(10),
+        paddingTop: theme.spacing(20),
         backgroundImage: `url(${require('../assets/background-yucatan.jpg')})`,
         backgroundSize: 'cover', // You may need to adjust this based on your design requirements
         [theme.breakpoints.down('md')]: {
@@ -51,14 +52,8 @@ const Header = () => {
                 },
             })}
             >
-                <img
-                src={datutandaGuy}
-                alt="Da tu tanda guy"
-                style={{ 
-                    width: "40%", 
-                    marginTop: 20,
-                }}
-                />
+            <BouncingGuy src={datutandaGuy} alt="Da tu tanda guy" />
+                
             </Box>
 
         </CustomBox>
