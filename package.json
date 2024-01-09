@@ -1,5 +1,6 @@
 {
-  "name": "landing-page-reactjs-materialui",
+  "name": "da-tu-tanda-com",
+  "homepage": "https://datutanda.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

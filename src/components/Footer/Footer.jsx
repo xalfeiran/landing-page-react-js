@@ -43,67 +43,26 @@ const Footer = () => {
     }}
     >
       <StackColumn>
-        <FooterTitle text={'address'} />
+        <FooterTitle text={'Direccion'} />
         <FooterLink 
-        text={'15th Louis St, london 92382, eng'} 
-        />
-        <FooterLink 
-        text={'25 999-345-10800'} 
-        />
-        <FooterLink 
-        text={'info@housesales.com'} 
+        text={'Chuburna Plus, Merida, Yucatan, Mexico'} 
         />
       </StackColumn>
       
       <StackColumn>
-        <FooterTitle text={'our services'} />
-        <FooterLink text={'buy house'} />
-        <FooterLink text={'sell house'} />
-        <FooterLink text={'rent house'} />
-        <FooterLink text={'build house'} />
+        <FooterTitle text={'Nada por aqui'} />
+        <FooterLink text={'Nada por aca'} />
+        
       </StackColumn>
       <StackColumn>
-        <FooterTitle text={'our company'} />
-        <FooterLink text={'reporting'} />
-        <FooterLink text={'get in touch'} />
-        <FooterLink text={'management'} />
+        <FooterTitle text={'Sobre nosotros'} />
+        <FooterLink text={'No hay mucho aun'} />
       </StackColumn>
 
       <StackColumn>
-        <FooterTitle text={'hBSales'} />
-        <Stack 
-        direction='row' 
-        width= '70px'
-        maxWidth='100%'
-        justifyContent='space-between'
-        >
-          <Link href="#" variant="body2" 
-          sx={{
-            color: '#414141',
-            "&:hover": {
-              color: '#1c2859',
-            }
-          }}
-          >
-            <InstagramIcon />  
-          </Link> 
-          <Link href="#"variant="body2" 
-          sx={{
-            color: '#414141',
-            "&:hover": {
-              color: '#1c2859',
-            }
-          }}
-          >
-            <FacebookIcon />
-          </Link> 
-        </Stack>
-        <Typography 
-        variant='caption'
-        component='p' 
-        >
-          &copy; 2022 HBSales Inc.
-        </Typography>
+        <FooterTitle text={'Da Tu Tanda Merch'} />
+        <FooterLink text={'Phone case'} />
+        <FooterLink text={'Hoodie'} />
       </StackColumn>
     </BoxRow>
   )

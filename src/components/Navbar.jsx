@@ -32,15 +32,15 @@ const ListMenu = styled(List)(({ theme }) => ({
 //rotas
 const itemList = [
     {
-      text: "Home",
+      text: "Inicio",
       to: "/" 
     },
     {
-      text: "About",
+      text: "Tanda?",
       to: "/about"
     },
     {
-        text: "Contact",
+        text: "Contacto",
         to: "/contact"
     }
 ];
@@ -53,7 +53,7 @@ const Navbar = () => {
         component="nav" 
         position="sticky"
         sx={{ 
-            backgroundColor: 'orange', 
+            backgroundColor: '#1e2a5a', 
         }}
         elevation={0}
         >
@@ -63,7 +63,6 @@ const Navbar = () => {
                 component="h2"
 
                 >
-                    HBSales
                 </Typography>
                 <Box sx={{display: { xs: 'block', sm: 'none' } }}>
                     <DrawerItem /> 
@@ -78,7 +77,7 @@ const Navbar = () => {
                                     color: '#fff',
                                     "&:hover": {
                                         backgroundColor: 'transparent',
-                                        color: '#1e2a5a',
+                                        color: '#1e2a5a'
                                     }
                                 }}
                                 >
